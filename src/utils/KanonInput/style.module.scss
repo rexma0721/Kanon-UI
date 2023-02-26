@@ -1,0 +1,19 @@
+.kanonInput {
+    height: 48px;
+    background: rgba(224, 224, 255, 0.02);
+    border-radius: 12px;
+    position: relative;
+    display: flex;
+}
+
+.kanonInputText {
+    width: calc(100% - 32px);
+    color: rgba(255, 255, 255, 0.6) !important;
+    background-color: transparent;
+    border: 0px;
+    margin-left: 16px;
+}
+
+.kanonInputText::before {
+    border: 0px !important;
+}

@@ -1,0 +1,226 @@
+.itemDetailPage {
+    font-family: "Klavika";
+    background: #202036;
+    display: flex;
+    min-height: 100vh;
+
+    .backButton {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #ffffff;
+        position: absolute;
+        left: 180px;
+        top: 128px;
+        cursor: pointer;
+    }
+
+    .imageDiv {
+        margin-top: 180px;
+        margin-left: 180px;
+        width: 648px;
+        height: 648px;
+        background: linear-gradient(
+            135deg,
+            rgba(245, 247, 250, 0.12) 0%,
+            rgba(245, 247, 250, 0.06) 51.58%,
+            rgba(245, 247, 250, 0.0001) 98.94%
+        );
+        border: 1px solid rgba(245, 247, 250, 0.06);
+        box-sizing: border-box;
+        box-shadow: 0px 1px 1px rgba(20, 16, 41, 0.4), -4px -4px 8px rgba(224, 224, 255, 0.04),
+            8px 8px 24px rgba(20, 16, 41, 0.4);
+        backdrop-filter: blur(108.731px);
+        /* Note: backdrop-filter has minimal browser support */
+        position: relative;
+        border-radius: 24px;
+    }
+
+    .image {
+        width: 568px;
+        height: 568px;
+        margin: 40px;
+    }
+
+    .content {
+        margin-top: 180px;
+        margin-left: 40px;
+        margin-bottom: 120px;
+        padding: 40px;
+        width: 728px;
+
+        background: linear-gradient(
+            135deg,
+            rgba(245, 247, 250, 0.12) 0%,
+            rgba(245, 247, 250, 0.06) 51.58%,
+            rgba(245, 247, 250, 0.0001) 98.94%
+        );
+        border: 1px solid rgba(245, 247, 250, 0.06);
+        box-sizing: border-box;
+        box-shadow: 0px 1px 1px rgba(20, 16, 41, 0.4), -4px -4px 8px rgba(224, 224, 255, 0.04),
+            8px 8px 24px rgba(20, 16, 41, 0.4);
+        backdrop-filter: blur(108.731px);
+        border-radius: 24px;
+    }
+
+    .title {
+        font-size: 48px;
+        margin-top: 16px;
+        color: white;
+        font-weight: bold;
+    }
+
+    .tag {
+        width: fit-content;
+        font-size: 13px;
+        color: white;
+        background: #2d61e5;
+        border-radius: 12px;
+        padding: 4px 8px;
+    }
+
+    .creatorTitle {
+        font-size: 13px;
+        line-height: 16px;
+        color: rgba(255, 255, 255, 0.6);
+    }
+
+    .creatorText {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.4px;
+        color: #ffffff;
+    }
+
+    .listDiv {
+        background: rgba(224, 224, 255, 0.02);
+        border-radius: 12px;
+        padding: 24px;
+        width: 326px;
+    }
+
+    .listDivInput {
+        width: 280px;
+    }
+
+    .listDivTitle {
+        font-size: 20px;
+        color: white;
+    }
+
+    .listDivInputGroup {
+        margin-top: 16px;
+        display: flex;
+    }
+
+    .listDivDescription {
+        margin-top: 16px;
+        font-size: 13px;
+        color: rgba(255, 255, 255, 0.6);
+        p {
+            text-decoration: underline;
+            color: white;
+            margin: 0px;
+            display: inline;
+        }
+    }
+
+    .listNowButton {
+        margin-left: -100px;
+    }
+
+    .stakeDiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: rgba(224, 224, 255, 0.02);
+        border-radius: 12px;
+        width: 218px;
+        padding: 24px;
+        margin-left: 24px;
+    }
+
+    .dFlex {
+        display: flex;
+    }
+
+    .propertyDiv {
+        margin-top: 24px;
+        background: rgba(224, 224, 255, 0.02);
+        border-radius: 12px;
+
+        .propertyDivTitle {
+            font-size: 20px;
+            color: white;
+            margin-left: 8px;
+        }
+
+        .propertyDivDetail {
+            padding-left: 24px;
+            flex-wrap: wrap;
+        }
+
+        .propertyCard {
+            background: rgba(224, 224, 255, 0.02);
+            border-radius: 12px;
+            margin-right: 16px;
+            margin-bottom: 16px;
+            padding: 12px;
+
+            .propertyCardTitle {
+                font-size: 13px;
+                line-height: 16px;
+                color: rgba(224, 224, 255, 0.6);
+                mix-blend-mode: normal;
+                width: max-content;
+            }
+
+            .propertyCardText {
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 24px;
+                color: #ffffff;
+                width: max-content;
+            }
+        }
+    }
+
+    .detailDiv {
+        margin-top: 24px;
+        background: rgba(224, 224, 255, 0.02);
+        border-radius: 12px;
+
+        .detailDivTitle {
+            font-size: 20px;
+            color: white;
+            margin-left: 8px;
+        }
+
+        .detailDivDetail {
+            padding-left: 24px;
+            flex-direction: column;
+        }
+
+        .detailCard {
+            margin-bottom: 8px;
+            display: flex;
+
+            .detailCardTitle {
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 24px;
+                color: #ffffff;
+                width: 300px;
+            }
+
+            .detailCardText {
+                font-size: 14px;
+                line-height: 24px;
+                text-align: right;
+                color: rgba(224, 224, 255, 0.6);
+                width: 100%;
+            }
+        }
+    }
+}

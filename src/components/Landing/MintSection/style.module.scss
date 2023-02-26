@@ -1,0 +1,156 @@
+.mintSection {
+    height: calc(100vw * 0.58);
+    background-size: 100% 100%;
+
+    .contentNight {
+        margin-left: 68px;
+
+        .countdownText {
+            font-size: 72px;
+            color: white;
+            padding-top: 25%;
+        }
+
+        .cardList {
+            display: flex;
+            margin-top: 30px;
+        }
+
+        .card {
+            width: 144px;
+            height: 144px;
+            background: linear-gradient(
+                135deg,
+                rgba(245, 247, 250, 0.12) 0%,
+                rgba(245, 247, 250, 0.06) 51.58%,
+                rgba(245, 247, 250, 0.0001) 98.94%
+            );
+            border: 1px solid rgba(245, 247, 250, 0.06);
+            box-sizing: border-box;
+            box-shadow: 0px 1px 1px rgba(20, 16, 41, 0.4), -4px -4px 8px rgba(224, 224, 255, 0.04),
+                8px 8px 24px rgba(20, 16, 41, 0.4);
+            backdrop-filter: blur(108.731px);
+            border-radius: 24px;
+            margin-right: 24px;
+
+            .cardText1 {
+                font-size: 48px;
+                color: white;
+                text-align: center;
+                margin-top: 16px;
+            }
+
+            .cardText2 {
+                font-size: 17px;
+                color: rgba(224, 224, 255, 0.6);
+                text-align: center;
+                margin-top: 8px;
+            }
+        }
+
+        .buttonGroup {
+            display: flex;
+            margin-top: 72px;
+        }
+
+        .connectButton {
+            width: 183px;
+            height: 72px;
+            background: linear-gradient(135deg, #ff00aa 0%, #9c42f5 50.18%, #5d2de1 100%);
+            box-shadow: 0px 0px 1px rgba(156, 66, 245, 0.24), 0px 2px 4px -1px rgba(27, 10, 82, 0.12),
+                0px 16px 24px rgba(156, 66, 245, 0.24), 0px 8px 8px -4px rgba(156, 66, 245, 0.12);
+            border-radius: 12px;
+        }
+
+        .mintButton {
+            width: 164px;
+            height: 72px;
+            background: linear-gradient(
+                135deg,
+                rgba(245, 247, 250, 0.12) 0%,
+                rgba(245, 247, 250, 0.06) 51.58%,
+                rgba(245, 247, 250, 0.0001) 98.94%
+            );
+            box-shadow: 0px 8px 8px -4px rgba(156, 66, 245, 0.06), 0px 0px 1px rgba(156, 66, 245, 0.12),
+                0px 16px 24px rgba(156, 66, 245, 0.12), 0px 1px 1px rgba(20, 16, 41, 0.4),
+                -4px -4px 8px rgba(224, 224, 255, 0.04), 8px 8px 24px rgba(20, 16, 41, 0.4),
+                inset 0px 2px 6px rgba(156, 66, 245, 0.4);
+            backdrop-filter: blur(108.731px);
+            border-radius: 12px;
+            margin-left: 32px;
+            color: white;
+        }
+    }
+
+    .contentDay {
+        margin-left: 68px;
+
+        .countdownText {
+            font-size: 72px;
+            color: white;
+            padding-top: 25%;
+        }
+
+        .cardList {
+            display: flex;
+            margin-top: 30px;
+        }
+
+        .card {
+            width: 144px;
+            height: 144px;
+            border: 3px solid rgba(224, 224, 255, 0.08);
+            border-radius: 144px;
+            margin-right: 24px;
+
+            .cardText1 {
+                font-size: 48px;
+                color: white;
+                text-align: center;
+                margin-top: 26px;
+                font-weight: bold;
+            }
+
+            .cardText2 {
+                font-size: 16px;
+                color: rgba(224, 224, 255, 0.6);
+                text-align: center;
+                margin-top: 8px;
+            }
+        }
+
+        .buttonGroup {
+            display: flex;
+            margin-top: 72px;
+        }
+
+        .connectButton {
+            width: 165px;
+            height: 72px;
+            background: linear-gradient(135deg, #2d61e5 0%, #8a62f6 53.09%, #e3477e 100%);
+            box-shadow: 0px 0px 1px rgba(45, 97, 229, 0.24), 0px 2px 4px -1px rgba(10, 70, 82, 0.12),
+                0px 16px 24px rgba(45, 97, 229, 0.24), 0px 8px 8px -4px rgba(45, 97, 229, 0.12);
+            border-radius: 12px;
+        }
+
+        .mintButton {
+            width: 146px;
+            height: 72px;
+            background: linear-gradient(
+                135deg,
+                rgba(245, 247, 250, 0.12) 0%,
+                rgba(245, 247, 250, 0.06) 51.58%,
+                rgba(245, 247, 250, 0.0001) 98.94%
+            );
+            box-shadow: 0px 0px 1px rgba(45, 97, 229, 0.12), 0px 12px 24px rgba(45, 97, 229, 0.16),
+                0px 1px 1px rgba(20, 16, 41, 0.4), -4px -4px 8px rgba(224, 224, 255, 0.04),
+                8px 8px 24px rgba(20, 16, 41, 0.4), 0px 8px 8px -4px rgba(45, 97, 229, 0.06),
+                inset 0px 2px 6px rgba(45, 97, 229, 0.4);
+            border-radius: 12px;
+            margin-left: 32px;
+            color: white;
+            text-transform: none;
+            font-size: 18px;
+        }
+    }
+}

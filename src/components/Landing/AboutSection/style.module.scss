@@ -1,0 +1,40 @@
+.aboutSection {
+    height: 460px;
+    background-size: 100% 100%;
+    background-color: #202036;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+    .title {
+        padding-top: 120px;
+        font-size: 48px;
+        font-weight: bold;
+        color: white;
+        z-index: 3;
+        width: 350px;
+        margin-left: 50%;
+    }
+
+    .contentText {
+        margin-top: 32px;
+        color: rgba(224, 224, 255, 0.6);
+        width: 450px;        
+        line-height: 28px;
+        font-size: 16px;
+        z-index: 3;
+        margin-left: 50%;
+    }
+
+    .logoImage {
+        position: absolute;
+        left: 129px;
+        top: 60px;
+        width: 520px;
+        height: 520px;
+        z-index: 6;
+        background-image: url("../../../assets/Landing/roadmap_image2.png");
+        background-size: 100% 100%;
+    }
+}

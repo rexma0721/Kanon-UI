@@ -1,0 +1,153 @@
+.myWalletPage {
+    min-height: 100vh;
+    background-color: #202036;
+    position: relative;
+    font-family: 'Klavika';
+
+    .title {
+        padding-top: 120px;
+        font-size: 48px;
+        color: white;
+        padding-left: 180px;
+        padding-top: 120px;
+    }
+
+    .smallTitle {
+        margin-top: 8px;
+        font-size: 20px;
+        color: rgba(224, 224, 255, 0.6);
+        padding-left: 180px;
+    }
+
+    .titleText {
+        width: 403px;
+        height: 56px;
+        margin-top: 24px;
+        font-size: 16px;
+        line-height: 28px;
+        color: rgba(224, 224, 255, 0.6);
+        text-align: center;
+        mix-blend-mode: normal;
+    }
+
+    .search {
+        width: 300px;
+        height: 48px;
+        background: rgba(224, 224, 255, 0.02);
+        border-radius: 12px;
+        position: absolute;
+        right: 180px;
+        top: 180px;
+        display: flex;
+    }
+
+    .searchIcon {
+        margin: 18px;
+    }
+
+    .searchText {
+        width: 230px;
+        color: rgba(255, 255, 255, 0.6);
+        background-color: transparent;
+        border: 0px;
+    }
+
+    .searchText::before {
+        border: 0px;
+    }
+
+    .loadMore {
+        width: 143px;
+        height: 48px;
+        font-size: 16px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        margin-left: calc(50% - 70px);
+        background: linear-gradient(
+            135deg,
+            rgba(245, 247, 250, 0.12) 0%,
+            rgba(245, 247, 250, 0.06) 51.58%,
+            rgba(245, 247, 250, 0.0001) 98.94%
+        );
+        box-shadow: 0px 0px 1px rgba(45, 97, 229, 0.12), 0px 12px 24px rgba(45, 97, 229, 0.16),
+            0px 1px 1px rgba(20, 16, 41, 0.4), -4px -4px 8px rgba(224, 224, 255, 0.04),
+            8px 8px 24px rgba(20, 16, 41, 0.4), 0px 8px 8px -4px rgba(45, 97, 229, 0.06),
+            inset 0px 2px 6px rgba(45, 97, 229, 0.4);
+        backdrop-filter: blur(108.731px);
+        border-radius: 12px;
+    }
+
+    .centerDiv {
+        display: flex;
+        justify-content: center;
+    }
+
+    .cardList {
+        display: flex;
+        margin-left: 180px;
+        margin-top: 24px;
+        padding-bottom: 48px;
+        width: calc(100% - 360px);
+        flex-wrap: wrap;
+        overflow: hidden;
+        position: relative;
+        z-index: 3;
+    }
+
+    .card {
+        width: 312px;
+        height: 364px;
+        margin-right: 24px;
+        margin-top: 24px;
+        background: linear-gradient(
+            135deg,
+            rgba(245, 247, 250, 0.12) 0%,
+            rgba(245, 247, 250, 0.06) 51.58%,
+            rgba(245, 247, 250, 0.0001) 98.94%
+        );
+        border: 1px solid rgba(245, 247, 250, 0.06);
+        box-sizing: border-box;
+        box-shadow: 0px 1px 1px rgba(20, 16, 41, 0.4), -4px -4px 8px rgba(224, 224, 255, 0.04),
+            8px 8px 24px rgba(20, 16, 41, 0.4);
+        backdrop-filter: blur(108.731px);
+        border-radius: 24px;
+        position: relative;
+
+        .cardImage {
+            width: 264px;
+            height: 264px;
+            border-radius: 12px;
+            margin: 24px;
+        }
+
+        .cardTitle {
+            font-size: 20px;
+            color: white;
+            margin-left: 24px;
+            cursor: pointer;
+        }
+
+        .cardTitle:hover {
+            text-decoration: underline;
+        }
+
+        .tag {
+            font-size: 13px;
+            font-family: "Montserrat";
+            height: 24px;
+            border-radius: 12px;
+            width: fit-content;
+            display: flex;
+            align-items: center;
+            color: white;
+            padding-left: 8px;
+            padding-right: 8px;
+            position: absolute;
+            right: 40px;
+            top: 40px;
+        }
+    }
+}

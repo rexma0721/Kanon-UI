@@ -1,0 +1,108 @@
+.detailModal {
+    font-family: 'Klavika';
+    :global(.MuiPaper-root) {
+        background: linear-gradient(
+            135deg,
+            rgba(245, 247, 250, 0.12) 0%,
+            rgba(245, 247, 250, 0.06) 51.58%,
+            rgba(245, 247, 250, 0.0001) 98.94%
+        );
+        border: 1px solid rgba(245, 247, 250, 0.06);
+        box-sizing: border-box;
+        box-shadow: 0px 1px 1px rgba(20, 16, 41, 0.4), -4px -4px 8px rgba(224, 224, 255, 0.04),
+            8px 8px 24px rgba(20, 16, 41, 0.4);
+        backdrop-filter: blur(108.731px);
+        /* Note: backdrop-filter has minimal browser support */
+
+        border-radius: 24px;
+    }
+
+    :global(.MuiDialogContent-root:first-child) {
+        padding-top: 40px;
+    }
+
+    .closeButton {
+        position: absolute;
+        top: 16px;
+        right: 16px;
+
+        :global(.MuiSvgIcon-root) {
+            color: rgba(224, 224, 255, 0.24);
+        }
+    }
+
+    .detailModalContent {
+        padding: 40px;
+        display: flex;
+    }
+
+    .image {
+        width: 426px;
+        height: 426px;
+    }
+
+    .content {
+        margin-left: 40px;
+    }
+
+    .title {
+        font-size: 48px;
+        margin-top: 16px;
+        color: white;
+        font-weight: bold;
+    }
+
+    .tag {
+        width: fit-content;
+        font-size: 13px;
+        color: white;
+        background: #2d61e5;
+        border-radius: 12px;
+        padding: 4px 8px;
+    }
+
+    .creatorTitle {
+        font-size: 13px;
+        line-height: 16px;
+        color: rgba(255, 255, 255, 0.6);
+    }
+
+    .creatorText {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.4px;
+        color: #ffffff;
+    }
+
+    .buyDiv {
+        margin-top: 186px;
+        width: 299px;
+        height: 96px;
+        background: rgba(224, 224, 255, 0.02);
+        border-radius: 12px;
+        display: flex;
+        position: relative;
+        .priceDiv {
+            margin: 24px;
+            .priceTitle {
+                font-weight: 500;
+                font-size: 13px;
+                line-height: 16px;
+                color: rgba(255, 255, 255, 0.6);
+            }
+            .priceText {
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 32px;
+                letter-spacing: -0.4px;
+                color: white;
+            }
+        }
+        .buyButton {
+            position: absolute;
+            right: 24px;
+            top: 24px;
+        }
+    }
+}

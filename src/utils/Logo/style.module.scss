@@ -1,0 +1,16 @@
+.logo {
+    margin: 21px 24px;
+    cursor: pointer;
+
+    @media screen and (max-width: 768px) {
+        margin-top: 20px;
+    }
+
+    .logoImage {
+        width: 100%;
+
+        @media screen and (max-width: 768px) {
+            width: 120px;
+        }
+    }    
+}
